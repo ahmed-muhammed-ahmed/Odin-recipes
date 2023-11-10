@@ -26,4 +26,13 @@ This project is a simple web development exercise that focuses on creating a rec
   - Linked the new recipes to the `index.html` file.
   - Organized recipe links in an unordered list for improved readability.
 
+## Skills Demonstrated
 
+Upon completion of this project, I have demonstrated the following skills:
+
+- HTML document structuring and formatting.
+- Creating and organizing multiple web pages within a project.
+- Adding links between pages for seamless navigation.
+- Incorporating images into web pages.
+- Creating descriptive headings and paragraphs.
+- Using ordered and unordered lists for organized content presentation.
