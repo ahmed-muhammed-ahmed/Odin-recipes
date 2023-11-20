@@ -1,0 +1,104 @@
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    background-color: #aecbed;
+}
+
+.heading-primary {
+    font-size: 96px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    color: #1b2d41;
+    letter-spacing: -2.5px;
+    padding: 64px 48px;
+}
+
+.chicken-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 1300px;
+}
+
+.chicken-text,
+.ingredients,
+.steps {
+    padding: 48px;
+}
+
+.ingredients {
+    padding-bottom: 24px;
+}
+
+.chicken-img  img{
+    border-radius: 4px;
+    height: 100%;
+}
+
+.secondary-heading {
+    font-size: 48px;
+    font-weight: 500;
+    letter-spacing: -2.5px;
+    margin-bottom: 30px;
+
+}
+
+p {
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.para-1 {
+    margin-bottom: 16px;
+}
+
+.ingredient-step {
+    flex-direction: column;
+}
+
+.tertiary-heading {
+    font-size: 32px;
+    letter-spacing: 0.5px;
+    margin-bottom: 24px;
+}
+
+.ingredient-description {
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+
+.list-group {
+    background-color: #e7eaed;
+    padding: 18px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgba(71, 79, 87, 0.3);
+}
+
+.list-group-item {
+    padding: 8px;
+    border-bottom: 1px solid #adb5bd;
+    font-size: 18px;
+    font-weight: 400;
+    
+}
+
+.list-group-flush {
+    list-style: none;
+}
+
+.list-group-numbered {
+    list-style-position: inside;
+}
