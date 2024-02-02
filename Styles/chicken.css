@@ -1,104 +1,70 @@
 *,
 *::before,
 *::after {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
-    font-size: 18px;
-    background-color: #aecbed;
-}
-
-.heading-primary {
-    font-size: 96px;
-    font-weight: 600;
-    text-transform: uppercase;
-    text-align: center;
-    color: #1b2d41;
-    letter-spacing: -2.5px;
-    padding: 64px 48px;
-}
-
-.chicken-container {
-    display: flex;
-    justify-content: space-around;
+  font-family: "Black Ops One", system-ui;
+  color: #000218;
+  font-size: 2rem;
+  background-color: #aecbed;
 }
 
 .container {
-    display: flex;
-    justify-content: space-between;
-    width: 1300px;
+  background-color: #d5ecfe;
+  padding: 4.8rem;
+  margin: 4rem auto;
+  border-radius: 1rem;
+  max-width: 96rem;
+  box-shadow: 0 0.5rem 1rem rgba(255, 255, 255, 0.2);
 }
 
-.chicken-text,
-.ingredients,
-.steps {
-    padding: 48px;
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
-.ingredients {
-    padding-bottom: 24px;
+img {
+  border-radius: 50%;
+  height: 45%;
+  width: 45%;
+  border: 2px solid green;
 }
 
-.chicken-img  img{
-    border-radius: 4px;
-    height: 100%;
+.header {
+  margin-bottom: 2.4rem;
 }
 
-.secondary-heading {
-    font-size: 48px;
-    font-weight: 500;
-    letter-spacing: -2.5px;
-    margin-bottom: 30px;
-
+.mr-t {
+  margin-top: 4.8rem;
 }
 
 p {
-    font-size: 20px;
-    line-height: 1.5;
+  line-height: 1.5;
 }
 
-.para-1 {
-    margin-bottom: 16px;
+ul,
+ol {
+  padding: 2.4rem;
+  line-height: 1.4;
 }
 
-.ingredient-step {
-    flex-direction: column;
+ul .list-group-item {
+  list-style: disc;
+  list-style-type: disc;
+  list-style-position: inside;
+  list-style-image: linear-gradient(to right, #555, #333);
+  border-radius: 50%;
 }
-
-.tertiary-heading {
-    font-size: 32px;
-    letter-spacing: 0.5px;
-    margin-bottom: 24px;
-}
-
-.ingredient-description {
-    margin-bottom: 10px;
-    font-weight: 400;
-}
-
-.list-group {
-    background-color: #e7eaed;
-    padding: 18px;
-    border-radius: 5px;
-    box-shadow: 5px 5px 5px rgba(71, 79, 87, 0.3);
-}
-
-.list-group-item {
-    padding: 8px;
-    border-bottom: 1px solid #adb5bd;
-    font-size: 18px;
-    font-weight: 400;
-    
-}
-
-.list-group-flush {
-    list-style: none;
-}
-
-.list-group-numbered {
-    list-style-position: inside;
+li {
+  margin-bottom: 1.2rem;
 }
