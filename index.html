@@ -1,55 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="Styles/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Lato:ital,wght@0,400;0,700;0,900;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="Styles/style.css" />
     <title>Odin Recipes</title>
-</head>
-<body>
-    <header class="header">
-    <nav class="navigation">
-        <div class="logo">
-            <a href="#"><span class="logo-o">O</span><span class="logo-r">R</span></a>
+  </head>
+  <body>
+    <div class="container">
+      <div class="logo">
+        <a href="/">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="40"
+            height="40"
+            fill="#40c057"
+            viewBox="0 0 40 40"
+          >
+            <path
+              fill="#40c057"
+              d="M20 0c11.046 0 20 8.954 20 20v14a6 6 0 0 1-6 6H21v-8.774c0-2.002.122-4.076 1.172-5.78a10 10 0 0 1 6.904-4.627l.383-.062a.8.8 0 0 0 0-1.514l-.383-.062a10 10 0 0 1-8.257-8.257l-.062-.383a.8.8 0 0 0-1.514 0l-.062.383a9.999 9.999 0 0 1-4.627 6.904C12.85 18.878 10.776 19 8.774 19H.024C.547 8.419 9.29 0 20 0Z"
+            ></path>
+            <path
+              fill="#40c057"
+              d="M0 21h8.774c2.002 0 4.076.122 5.78 1.172a10.02 10.02 0 0 1 3.274 3.274C18.878 27.15 19 29.224 19 31.226V40H6a6 6 0 0 1-6-6V21ZM40 2a2 2 0 1 1-4 0 2 2 0 0 1 4 0Z"
+            ></path>
+          </svg>
+        </a>
+        <div class="odin">Odin Recipes</div>
+      </div>
+      <div class="box">
+        <div class="img-box">
+          <a href="./recipes/air_fryer_meatloaf.html" class="link"
+            ><img class="meatloaf" src="./imgs/meatloaf.jpg" alt="meatloaf"
+          /></a>
+          <p class="recipe-name">Air fryer meatloaf</p>
         </div>
-            <ul class="navigation-item">
-                <li class="home link"><a href="#">Home</a></li>
-                <li class="dropdown link"><span>Recipes &#9662;</span>
-                    <ul class="recipe-list">
-                        <li><a href="./recipes/air_fryer_meatloaf.html">Air Fryer Meatloaf</a></li>
-                        <li><a href="./recipes/oven_fried_chicken.html">Oven Fried Chicken</a></li>
-                        <li><a href="./recipes/turkey_in_a_bag.html">Turkey In a Bag</a></li>
-                        <li><a href="./recipes/explore.html">Explore Recipes</a></li>
-                    </ul>
-                </li>
-                <li class="about link"><a href="#">About</a></li>
-            </ul>
-    </nav>
-
-    <div class="hero">
-    <div class="hero-section">
-        <div class="hero-text-box">
-            <span>Odin Recipes</span>
-            <h1 class="heading-primary">Welcome to Odin Recipe - Culinary Delights Await!</h1>
-            <p class="hero-description">Indulge your taste buds in a gastronomic adventure with Odin Recipe, 
-                where we bring you a triumvirate of delectable delights that are sure to tantalize your palate. 
-                Explore the magic of our kitchen with three distinct recipes that 
-                promise to elevate your culinary experience to new heights.</p>
-            <div class="btn">
-            <a class="explore" href="./recipes/explore.html">Explore Recipes</a>
-            <a class="start-cooking" href="#">Start Cooking Now</a>
-           </div>
+        <div class="img-box">
+          <a href="./recipes/oven_fried_chicken.html" class="link"
+            ><img src="./imgs/chicken.jpg" alt="chicken"
+          /></a>
+          <p class="recipe-name">Oven fried chicken</p>
         </div>
-
-        <div class="hero-img-box">
-            <img class="hero-img" src="./imgs/recipe.jpg" alt="Recipe">
+        <div class="img-box">
+          <a href="./recipes/turkey_in_a_bag.html" class="link">
+            <img src="./imgs/turkey.jpg" alt="turkey" />
+          </a>
+          <p class="recipe-name">Turkey In a bag</p>
         </div>
+      </div>
     </div>
-
-</div>
-</header>
-</body>
+  </body>
 </html>
